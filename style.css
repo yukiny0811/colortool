@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#canvas{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: pink;
+}
+#setumei{
+    position: fixed;
+    z-index: 200;
+    color: white;
+}
+#start{
+    position: fixed;
+    width: 20%;
+    left: 40%;
+    z-index: 300;
+}
+#start .cls-1{
+    fill: pink;
+    stroke: white;
+    stroke-width: 10;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#start:hover .cls-1{
+    fill: white;
+    stroke: pink;
+}
+#start .cls-2{
+    fill: white;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#start:hover .cls-2{
+    fill: pink;
+}
+#whichContainer{
+    position: fixed;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#which{
+    position: fixed;
+    z-index: 300;
+    display: none;
+    color: pink;
+}

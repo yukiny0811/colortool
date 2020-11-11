@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#whichContainer{
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#which{
+    position: fixed;
+    z-index: 300;
+    color: pink;
+    display: none;
+}
+#canvas{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+#svgBright{
+    position: fixed;
+    z-index: 300;
+    display: none;
+    fill: white;
+}
+#svgDark{
+    position: fixed;
+    z-index: 300;
+    display: none;
+}
+#satContainer{
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sat{
+    position: fixed;
+    z-index: 300;
+    color: pink;
+    display: none;
+}
+#svgHigh{
+    position: fixed;
+    z-index: 300;
+    display: none;
+    fill: white;
+}
+#svgLow{
+    position: fixed;
+    z-index: 300;
+    display: none;
+    fill: gray;
+}
+#temperContainer{
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#temper{
+    position: fixed;
+    z-index: 300;
+    color: white;
+    display: none;
+}
+#svgWarm{
+    position: fixed;
+    z-index: 300;
+    display: none;
+    fill: white;
+}
+#svgCold{
+    position: fixed;
+    z-index: 300;
+    display: none;
+    fill: white;
+}
+#lastContainer{
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#last{
+    position: fixed;
+    z-index: 300;
+    color: white;
+    display: none;
+}
+#hueContainer{
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hue{
+    position: fixed;
+    z-index: 300;
+    color: white;
+    display: none;
+}
+#mihonn1 .cls-1{
+    stroke: white;
+    stroke-width: 30;
+}
+#mihonn2 .cls-1{
+    stroke: white;
+    stroke-width: 30;
+}
+#mihonn3 .cls-1{
+    stroke: white;
+    stroke-width: 30;
+}
+#mihonn4 .cls-1{
+    stroke: white;
+    stroke-width: 30;
+}
+#mihonn1{
+    display: none;
+    position: fixed;
+    width: 15%;
+    left: 8%;
+    top: 50%;
+}
+#mihonn2{
+    display: none;
+    position: fixed;
+    width: 15%;
+    left: 31%;
+    top: 50%;
+}
+#mihonn3{
+    display: none;
+    position: fixed;
+    width: 15%;
+    left: 54%;
+    top: 50%;
+}
+#mihonn4{
+    display: none;
+    position: fixed;
+    width: 15%;
+    left: 77%;
+    top: 50%;
+}
+#hueNum{
+    position: fixed;
+    display: none;
+    left: 31%;
+    top: 10%;
+}
+#satNum{
+    position: fixed;
+    display: none;
+    left: 31%;
+    top: 20%;
+}
+#lumNum{
+    position: fixed;
+    display: none;
+    left: 31%;
+    top: 30%;
+}
+#mainHex{
+    display: none;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: lightgray;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#mainHex:hover{
+    color: white;
+}
+#mainHexContainer{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#firstColor{
+    position: fixed;
+    opacity: 0;
+    z-index: 1000;
+}
+#secondColor{
+    position: fixed;
+    opacity: 0;
+    z-index: 1000;
+}
